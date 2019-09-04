@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:id="@+id/title_edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="25dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Title"/>
+
+    <EditText
+        android:id="@+id/note_edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="25dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Note" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:text="add"
+        android:textSize="20dp"
+        android:background="#70FF00" />
+
+</LinearLayout>
